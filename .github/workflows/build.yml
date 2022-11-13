@@ -50,10 +50,11 @@ jobs:
         ./.github/post_auto_commit.sh
         cd -
 
-#    - name: Notify on Slack
-#      uses: act10ns/slack@v1.2.2
-#      with:
-#        status: ${{ job.status }}
-#        channel: '#alert'
-#        steps: ${{ toJson(steps) }}
-#      if: failure()
+    - name: Notify on Slack
+      uses: act10ns/slack@v1.2.2
+      with:
+        status: ${{ job.status }}
+        channel: '#alert'
+        steps: ${{ toJson(steps) }}
+      # if: failure()
+      if: always()
