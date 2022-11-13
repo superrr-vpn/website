@@ -13,7 +13,7 @@ fi
 if [[ $(git status --porcelain) ]]; then
   git add .
   git commit -m "build: skip ci"
-  git push origin master
+  git push origin main
 else
   echo "no changes"
 fi
