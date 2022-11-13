@@ -1,4 +1,4 @@
-name: Report traffic
+name: Build
 on:
   # see https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows#repository_dispatch
   repository_dispatch:
