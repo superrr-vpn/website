@@ -38,6 +38,7 @@ jobs:
       id: build
       run: |
         cd src
+        yarn config set “strict-ssl” false -g
         yarn install
         yarn build
         cd -
