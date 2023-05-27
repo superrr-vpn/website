@@ -51,6 +51,7 @@ jobs:
     - name: Auto Commit
       id: auto-commit
       run: |
+        cp -r src/public/* main/docs
         cp -r src/dist/* main/docs
         cd main
         ./.github/post_auto_commit.sh
