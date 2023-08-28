@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://turbo-max.yalaso.top/sitemap.xml 
