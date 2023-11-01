@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://turbo-max.yalaso.top/sitemap.xml 
+Sitemap: https://cablevpn.yalaso.top/sitemap.xml 
